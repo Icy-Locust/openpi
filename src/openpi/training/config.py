@@ -665,6 +665,7 @@ _CONFIGS = [
         # Below you can define other hyperparameters like the learning rate, number of training steps, etc.
         # Check the base TrainConfig class for a full list of available hyperparameters.
         num_train_steps=30_000,
+        num_workers=128
     ),
     TrainConfig(
         name="pi0_libero_low_mem_finetune",
